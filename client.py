@@ -1,6 +1,6 @@
 import requests
 
-BASE_URL = "http://127.0.0.1:5000"
+BASE_URL = "https://client-server-project-ti97.onrender.com"
 token = None
 current_user = None
 
@@ -140,3 +140,4 @@ def user_menu():
 # ---------------- RUN ----------------
 if __name__ == "__main__":
     main_menu()
+
